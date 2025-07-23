@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/_deps/googletest-src/googletest/include -isystem /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -I/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src -isystem /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/_deps/googletest-src/googletest/include -isystem /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=gnu++17
 

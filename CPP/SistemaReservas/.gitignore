@@ -1,0 +1,32 @@
+# Build
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binários
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+*.dll
+*.dylib
+
+# Dependências baixadas
+_deps/
+
+# Arquivos temporários e de sistema
+*.swp
+*.swo
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db
+
+# Arquivos de log e configs locais
+log.md
+config.md 

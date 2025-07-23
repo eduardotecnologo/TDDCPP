@@ -8,7 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/test/main.cpp" "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o" "gcc" "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o.d"
+  "/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src/domain/value_object/DateRange.cpp" "CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o" "gcc" "CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o.d"
+  "/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/date_range.test.cpp" "CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o" "gcc" "CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o.d"
+  "/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/main.cpp" "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o" "gcc" "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

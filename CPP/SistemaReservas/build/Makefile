@@ -57,10 +57,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas
+CMAKE_SOURCE_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build
+CMAKE_BINARY_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/CMakeFiles /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -236,6 +236,54 @@ gtest_main/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
+src/domain/value_object/DateRange.o: src/domain/value_object/DateRange.cpp.o
+.PHONY : src/domain/value_object/DateRange.o
+
+# target to build an object file
+src/domain/value_object/DateRange.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o
+.PHONY : src/domain/value_object/DateRange.cpp.o
+
+src/domain/value_object/DateRange.i: src/domain/value_object/DateRange.cpp.i
+.PHONY : src/domain/value_object/DateRange.i
+
+# target to preprocess a source file
+src/domain/value_object/DateRange.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.i
+.PHONY : src/domain/value_object/DateRange.cpp.i
+
+src/domain/value_object/DateRange.s: src/domain/value_object/DateRange.cpp.s
+.PHONY : src/domain/value_object/DateRange.s
+
+# target to generate assembly for a file
+src/domain/value_object/DateRange.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.s
+.PHONY : src/domain/value_object/DateRange.cpp.s
+
+test/date_range.test.o: test/date_range.test.cpp.o
+.PHONY : test/date_range.test.o
+
+# target to build an object file
+test/date_range.test.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o
+.PHONY : test/date_range.test.cpp.o
+
+test/date_range.test.i: test/date_range.test.cpp.i
+.PHONY : test/date_range.test.i
+
+# target to preprocess a source file
+test/date_range.test.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.i
+.PHONY : test/date_range.test.cpp.i
+
+test/date_range.test.s: test/date_range.test.cpp.s
+.PHONY : test/date_range.test.s
+
+# target to generate assembly for a file
+test/date_range.test.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sistema_reservas_test.dir/build.make CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.s
+.PHONY : test/date_range.test.cpp.s
+
 test/main.o: test/main.cpp.o
 .PHONY : test/main.o
 
@@ -278,6 +326,12 @@ help:
 	@echo "... gtest"
 	@echo "... gtest_main"
 	@echo "... sistema_reservas_test"
+	@echo "... src/domain/value_object/DateRange.o"
+	@echo "... src/domain/value_object/DateRange.i"
+	@echo "... src/domain/value_object/DateRange.s"
+	@echo "... test/date_range.test.o"
+	@echo "... test/date_range.test.i"
+	@echo "... test/date_range.test.s"
 	@echo "... test/main.o"
 	@echo "... test/main.i"
 	@echo "... test/main.s"

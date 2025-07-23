@@ -17,11 +17,18 @@ enable_testing()
 add_executable(
   sistema_reservas_test
   test/main.cpp
+  test/date_range.test.cpp
+  src/domain/value_object/DateRange.cpp
 )
 
 target_link_libraries(
   sistema_reservas_test
   gtest_main
+)
+
+target_include_directories(
+  sistema_reservas_test PRIVATE
+  ${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 
 include(GoogleTest)

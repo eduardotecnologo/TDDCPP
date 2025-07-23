@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas
+CMAKE_SOURCE_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build
+CMAKE_BINARY_DIR = /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sistema_reservas_test.dir/depend.make
@@ -73,34 +73,66 @@ CMakeFiles/sistema_reservas_test.dir/codegen:
 .PHONY : CMakeFiles/sistema_reservas_test.dir/codegen
 
 CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o: CMakeFiles/sistema_reservas_test.dir/flags.make
-CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/test/main.cpp
+CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/main.cpp
 CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o: CMakeFiles/sistema_reservas_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o -MF CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o.d -o CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o -c /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o -MF CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o.d -o CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o -c /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/main.cpp
 
 CMakeFiles/sistema_reservas_test.dir/test/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_reservas_test.dir/test/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/test/main.cpp > CMakeFiles/sistema_reservas_test.dir/test/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/main.cpp > CMakeFiles/sistema_reservas_test.dir/test/main.cpp.i
 
 CMakeFiles/sistema_reservas_test.dir/test/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_reservas_test.dir/test/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/test/main.cpp -o CMakeFiles/sistema_reservas_test.dir/test/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/main.cpp -o CMakeFiles/sistema_reservas_test.dir/test/main.cpp.s
+
+CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o: CMakeFiles/sistema_reservas_test.dir/flags.make
+CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/date_range.test.cpp
+CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o: CMakeFiles/sistema_reservas_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o -MF CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o.d -o CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o -c /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/date_range.test.cpp
+
+CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/date_range.test.cpp > CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.i
+
+CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/test/date_range.test.cpp -o CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.s
+
+CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o: CMakeFiles/sistema_reservas_test.dir/flags.make
+CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src/domain/value_object/DateRange.cpp
+CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o: CMakeFiles/sistema_reservas_test.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o -MF CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o.d -o CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o -c /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src/domain/value_object/DateRange.cpp
+
+CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src/domain/value_object/DateRange.cpp > CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.i
+
+CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/src/domain/value_object/DateRange.cpp -o CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.s
 
 # Object files for target sistema_reservas_test
 sistema_reservas_test_OBJECTS = \
-"CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o"
+"CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o" \
+"CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o" \
+"CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o"
 
 # External object files for target sistema_reservas_test
 sistema_reservas_test_EXTERNAL_OBJECTS =
 
 sistema_reservas_test: CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o
+sistema_reservas_test: CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o
+sistema_reservas_test: CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o
 sistema_reservas_test: CMakeFiles/sistema_reservas_test.dir/build.make
 sistema_reservas_test: lib/libgtest_main.a
 sistema_reservas_test: lib/libgtest.a
 sistema_reservas_test: CMakeFiles/sistema_reservas_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable sistema_reservas_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable sistema_reservas_test"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sistema_reservas_test.dir/link.txt --verbose=$(VERBOSE)
-	/usr/local/bin/cmake -D TEST_TARGET=sistema_reservas_test -D TEST_EXECUTABLE=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/sistema_reservas_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=sistema_reservas_test_TESTS -D CTEST_FILE=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/sistema_reservas_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/local/share/cmake/Modules/GoogleTestAddTests.cmake
+	/usr/local/bin/cmake -D TEST_TARGET=sistema_reservas_test -D TEST_EXECUTABLE=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/sistema_reservas_test -D TEST_EXECUTOR= -D TEST_WORKING_DIR=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build -D TEST_EXTRA_ARGS= -D TEST_PROPERTIES= -D TEST_PREFIX= -D TEST_SUFFIX= -D TEST_FILTER= -D NO_PRETTY_TYPES=FALSE -D NO_PRETTY_VALUES=FALSE -D TEST_LIST=sistema_reservas_test_TESTS -D CTEST_FILE=/Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/sistema_reservas_test[1]_tests.cmake -D TEST_DISCOVERY_TIMEOUT=5 -D TEST_DISCOVERY_EXTRA_ARGS= -D TEST_XML_OUTPUT_DIR= -P /usr/local/share/cmake/Modules/GoogleTestAddTests.cmake
 
 # Rule to build all files generated by this target.
 CMakeFiles/sistema_reservas_test.dir/build: sistema_reservas_test
@@ -111,6 +143,6 @@ CMakeFiles/sistema_reservas_test.dir/clean:
 .PHONY : CMakeFiles/sistema_reservas_test.dir/clean
 
 CMakeFiles/sistema_reservas_test.dir/depend:
-	cd /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/CMakeFiles/sistema_reservas_test.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build /Users/edudeveloper/Documents/GIT/Fullcycle40/TDDCPP/CPP/SistemaReservas/build/CMakeFiles/sistema_reservas_test.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/sistema_reservas_test.dir/depend
 

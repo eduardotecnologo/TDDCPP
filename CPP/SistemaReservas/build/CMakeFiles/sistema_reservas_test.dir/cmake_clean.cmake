@@ -1,4 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o"
+  "CMakeFiles/sistema_reservas_test.dir/src/domain/value_object/DateRange.cpp.o.d"
+  "CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o"
+  "CMakeFiles/sistema_reservas_test.dir/test/date_range.test.cpp.o.d"
   "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o"
   "CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o.d"
   "sistema_reservas_test"
