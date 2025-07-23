@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/sistema_reservas_test.dir/test/main.cpp.o -o sistema_reservas_test  lib/libgtest_main.a lib/libgtest.a

@@ -1,0 +1,6 @@
+# CMake generated Testfile for 
+# Source directory: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/_deps/googletest-src/googletest
+# Build directory: /Users/edudeveloper/Documents/GIT/Fullcycle40/TDD/CPP/SistemaReservas/build/_deps/googletest-build/googletest
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
